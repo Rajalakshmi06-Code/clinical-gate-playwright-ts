@@ -1,0 +1,14 @@
+{
+  "name": "clinical-gate-playwright-ts",
+  "version": "1.0.0",
+  "description": "Enterprise Playwright TypeScript Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.42.0",
+    "typescript": "^5.3.3"
+  }
+}
